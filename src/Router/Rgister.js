@@ -24,7 +24,7 @@ const Register = () => {
 
   return (
     <div>
-    <div style={{position:"absolute",left:"155px",top:'125px',width:"45%",height:"155px",backgroundColor:"pink"}}>
+    <div style={{position:"absolute",left:"155px",top:'125px',width:"45%",height:"255px",backgroundColor:"pink"}}>
       <h2>Login </h2>
       <h2>Registration</h2>
       <label>Name</label>
