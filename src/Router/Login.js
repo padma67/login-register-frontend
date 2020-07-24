@@ -22,6 +22,7 @@ const Login = () => {
 
   return (
     <div>
+    <div style={{position:"absolute",left:"155px",top:'125px',width:"45%",height:"155px",backgroundColor:"pink"}}>
       <h2>Login </h2>
       <label>E-mail</label>
 
@@ -41,7 +42,7 @@ const Login = () => {
       <button type="submit" onClick={() => check()}>
         Login
       </button>
-      <h3>{result.message}</h3>
+      <h3>{result.message}</h3></div>
     </div>
   );
 };
