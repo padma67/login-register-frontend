@@ -24,6 +24,8 @@ const Register = () => {
 
   return (
     <div>
+    <div style={{position:"absolute",left:"155px",top:'125px',width:"45%",height:"155px",backgroundColor:"pink"}}>
+      <h2>Login </h2>
       <h2>Registration</h2>
       <label>Name</label>
       <input
@@ -49,7 +51,7 @@ const Register = () => {
       <button type="submit" onClick={() => add()}>
         Register
       </button>
-      <h3>{status}</h3>
+      <h3>{status}</h3></div>
     </div>
   );
 };
